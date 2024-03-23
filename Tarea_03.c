@@ -3,13 +3,13 @@
 int main(int argc, char *argv[]) {
 	
 	int r, tab;
-    r = 0;
+	r = 0;
 	
 	printf("¿Que tabla de multiplicar necesitas conocer?\n");
 	scanf("%i", &tab);
 	
 	printf("Mostrando tabla de multiplicaion del %i\n", tab);
-	for (int i = 1; i <=10; i++){
+	for (int i = 0; i <= 10; i++){
 		r = tab * i;
 		printf ("%i * %i = %i\n", tab, i, r);
 	}
